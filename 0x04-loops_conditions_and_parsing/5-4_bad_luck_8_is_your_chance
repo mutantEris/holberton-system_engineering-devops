@@ -1,4 +1,5 @@
 #!/bin/bash
+#prints luck stats
 e=0
 while [ $e -le 9 ]
 do

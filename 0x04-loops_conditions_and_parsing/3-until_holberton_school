@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#prints holberton
 e=0
 until [ $e = 10 ]
 do

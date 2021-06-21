@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#a time loop
+
+h=0
+m=1
+while  [ $h -le 12]
+do
+    ((h++))
+    echo "$h"
+    while [ $m -le 59 ]
+    do
+	((m++))
+	echo "$n"
+    done
+    done

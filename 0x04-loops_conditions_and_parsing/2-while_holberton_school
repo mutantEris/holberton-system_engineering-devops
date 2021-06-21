@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#prints holberton
 e=0
 while [ $e -le 9 ]
 do
