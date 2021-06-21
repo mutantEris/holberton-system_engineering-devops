@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+e=0
+while [ $e -le 9 ]
+do
+echo "Holberton School"
+e=$[$e+1]
+done

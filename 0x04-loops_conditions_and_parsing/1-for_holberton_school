@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for((e = 0; e <= 9; e++))
+do
+   echo "Holberton School"
+done

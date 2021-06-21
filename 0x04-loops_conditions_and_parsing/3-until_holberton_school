@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+e=0
+until [ $e = 10 ]
+do
+echo "Holberton School"
+((e++))
+done
