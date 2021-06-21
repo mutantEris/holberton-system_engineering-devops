@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#prints holberton
 for((e = 0; e <= 9; e++))
 do
    echo "Holberton School"
