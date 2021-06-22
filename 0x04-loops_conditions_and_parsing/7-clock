@@ -2,14 +2,14 @@
 #a time loop
 
 h=0
-m=1
-while  [ $h -le 12]
+while  [ $h -le 12 ]
 do
+    m=0
+    echo "hour: "$h
     ((h++))
-    echo "$h"
-    while [ $m -le 59 ]
+    while  [ $m -le 58 ]
     do
 	((m++))
-	echo "$n"
+	echo "$m"
     done
-    done
+done
