@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#writes some words every two seconds and refuses to die
+
+trap "I am invincible!!!" SIGTERM SIGINT
+
+x=0
+while [ $x -le 9 ]
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
