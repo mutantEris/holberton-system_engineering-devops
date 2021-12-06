@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # server laws
 
-sudo ufw default deny incoming
 sudo ufw enable
+sudo ufw default deny incoming
 sudo ufw allow 22
 sudo ufw allow 80
 sudo ufw allow 443
