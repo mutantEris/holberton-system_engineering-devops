@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # server laws
 
 sudo ufw default deny incoming
