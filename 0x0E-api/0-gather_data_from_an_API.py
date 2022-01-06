@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# returns information about an employees ID
+"""returns information about an employees ID"""
 
 import requests
 import sys
@@ -21,10 +21,10 @@ if __name__ == "__main__":
     tasklist = to_do_list.json()
     for task in tasklist:
         if task.get('completed') is True:
-            tasks_title.append(task['title'])
+            tasks_title.append(task.get('title'))
             tasks_defeated += 1
     print(
         'Employee {} is done with tasks({}/{}):'
         .format(employee_name, (tasks_defeated), len(tasklist)))
     for x in tasks_title:
-        print('\t {}'.format(task.get('title')))
+        print('\t {}'.format(x))
