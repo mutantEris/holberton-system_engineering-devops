@@ -18,7 +18,7 @@ if __name__ == "__main__":
     to_do_list = requests.get(
         'https://jsonplaceholder.typicode.com/users/{}/todos'.
         format(employee_id))
-    employee_name = wumbo_id.json().get('name')
+    employee_name = wumbo_id.json().get('username')
     tasklist = to_do_list.json()
     f = open("{}.csv".format(employee_id), "w", newline='')
     spamwriter = csv.writer(f, quoting=csv.QUOTE_ALL, delimiter=",")
