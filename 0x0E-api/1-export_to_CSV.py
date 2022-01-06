@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """returns information about an employees ID"""
 
+import csv
 import requests
 import sys
-import csv
 
 if __name__ == "__main__":
 
