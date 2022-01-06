@@ -20,8 +20,8 @@ if __name__ == "__main__":
         format(employee_id))
     employee_name = wumbo_id.json().get('username')
     tasklist = to_do_list.json()
-    f = open("{}.csv".format(employee_id), "w", newline='')
-    spamwriter = csv.writer(f, quoting=csv.QUOTE_ALL, delimiter=",")
+    f = open("{}.csv".format(employee_id), "w")
+    spamwriter = csv.writer(f, quoting=csv.QUOTE_ALL)
     for task in tasklist:
         spamwriter.writerow([employee_id, employee_name,
                             task.get('completed'), task.get('title')])
